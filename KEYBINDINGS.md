@@ -39,7 +39,7 @@
 
 ---
 
-> ![Zen](https://github.com/x5368x/HyprZent/raw/master/README.IMAGES/zen_light.png) **TIP:** <kbd>Super</kbd> + <kbd>/</kbd> muestra todos los atajos en pantalla
+> 🧘‍♂️ **TIP:** <kbd>Super</kbd> + <kbd>/</kbd> muestra todos los atajos en pantalla
 
 ---
 
