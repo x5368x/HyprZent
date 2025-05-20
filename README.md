@@ -8,6 +8,9 @@
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
 
+[license-shield]: https://img.shields.io/github/license/x5368x/HyprZent.svg
+[license-url]: https://github.com/x5368x/HyprZent/blob/master/LICENSE
+
 <!-- SOCIALS (tuned for blue harmony) -->
 <div align="center">
   <a href="https://discord.gg/NdtChxcaU8">
