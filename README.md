@@ -78,7 +78,7 @@
 
 ## 🧘‍♂️ Sobre el proyecto
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/x5368x/HyprZent)
+[![HyprZent Banner](https://github.com/x5368x/HyprZent/raw/master/README.IMAGES/hyprzent.jpg)](https://github.com/x5368x/HyprZent)
 
 **HyprZent** es la configuración definitiva para Hyprland:  
 Un entorno visual, moderno y zen con glass, neón y máxima personalización para tu setup Linux.
