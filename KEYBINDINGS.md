@@ -31,10 +31,10 @@
 </div>
 
 <!-- DISTRO GIF -->
-<div align="center" style="margin: 10px 0 24px 0;">
+<div align="center">
   <img src="https://raw.githubusercontent.com/x5368x/HyprZent/main/media/distros.gif" alt="Distros compatibles: Arch, CachyOS, EndeavourOS, Garuda, NixOS" height="48"/>
   <br>
-  <sub style="color:#C6D5F8;">Compatibilidad total: <b>Arch</b>, <b>CachyOS</b>, <b>EndeavourOS</b>, <b>Garuda</b>, <b>NixOS</b> y más</sub>
+  <sub>Compatibilidad total: <b>Arch</b>, <b>CachyOS</b>, <b>EndeavourOS</b>, <b>Garuda</b>, <b>NixOS</b> y más</sub>
 </div>
 
 ---
