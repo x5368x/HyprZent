@@ -2,14 +2,26 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS (palette: blue/white) -->
+[![LICENSE][license-shield]][license-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![LICENSE][license-shield]][license-url]
 
 [license-shield]: https://img.shields.io/badge/LICENSE-MIT-3772ff.svg?style=flat-square&labelColor=464749
 [license-url]: https://github.com/x5368x/HyprZent/blob/master/LICENSE
+
+[contributors-shield]: https://img.shields.io/github/contributors/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[contributors-url]: https://github.com/x5368x/HyprZent/graphs/contributors
+
+[forks-shield]: https://img.shields.io/github/forks/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[forks-url]: https://github.com/x5368x/HyprZent/network/members
+
+[stars-shield]: https://img.shields.io/github/stars/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[stars-url]: https://github.com/x5368x/HyprZent/stargazers
+
+[issues-shield]: https://img.shields.io/github/issues/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[issues-url]: https://github.com/x5368x/HyprZent/issues
 
 <!-- SOCIALS (tuned for blue harmony) -->
 <div align="center">
