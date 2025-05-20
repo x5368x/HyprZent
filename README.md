@@ -6,9 +6,9 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
+[![LICENSE][license-shield]][license-url]
 
-[license-shield]: https://img.shields.io/badge/License-MIT-0984e3.svg?style=flat-square&labelColor=444444
+[license-shield]: https://img.shields.io/badge/LICENSE-MIT-0984e3.svg?style=flat-square&labelColor=444444
 [license-url]: https://github.com/x5368x/HyprZent/blob/master/LICENSE
 
 <!-- SOCIALS (tuned for blue harmony) -->
