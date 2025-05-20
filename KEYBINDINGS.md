@@ -39,8 +39,7 @@
 
 ---
 
-> <img src="https://github.com/x5368x/HyprZent/raw/master/README.IMAGES/zen_light.svg" height="20" style="vertical-align:middle;margin-right:3px;" />  
-> <b>TIP:</b> <kbd>Super</kbd> + <kbd>/</kbd> muestra todos los atajos en pantalla
+> ![Zen](https://github.com/x5368x/HyprZent/raw/master/README.IMAGES/zen_light.png) **TIP:** <kbd>Super</kbd> + <kbd>/</kbd> muestra todos los atajos en pantalla
 
 ---
 
