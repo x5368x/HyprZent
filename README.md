@@ -59,11 +59,10 @@
 </div>
 
 <!-- DISTROS COMPATIBLES GIF -->
-<div align="center" style="margin: 10px 0 24px 0;">
-  <img src="https://raw.githubusercontent.com/x5368x/HyprZent/main/media/distros.gif" alt="Distros compatibles: Arch, CachyOS, EndeavourOS, Garuda, NixOS" height="48"/>
-  <br>
-  <sub style="color:#C6D5F8;">Compatibilidad total: Arch, CachyOS, EndeavourOS, Garuda, NixOS y más</sub>
-</div>
+<p align="center">
+  🖥️🐧💻<br>
+  <b>Compatibilidad total:</b> Arch, CachyOS, EndeavourOS, Garuda, NixOS y más
+</p>
 
 <!-- TABLE OF CONTENTS -->
 <details>
