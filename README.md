@@ -274,7 +274,9 @@ cd ~/HyprZent
 ---
 
 ## 📝 Licencia <span id="license"></span>
-Distribuido bajo licencia Unlicense. Ver `LICENSE.txt` para más información.
+
+Distribuido bajo licencia [MIT](https://github.com/x5368x/HyprZent/blob/master/LICENSE).  
+Ver `LICENSE` para más información.
 
 <div align="right">
   <a href="#readme-top">
