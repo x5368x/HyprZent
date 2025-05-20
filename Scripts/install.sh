@@ -2,7 +2,7 @@
 # shellcheck disable=SC2154
 #|---/ /+--------------------------+---/ /|#
 #|--/ /-| Main installation script |--/ /-|#
-#|-/ /--| Prasanth Rangan          |-/ /--|#
+#|-/ /--| HyprZent Zenthrax        |-/ /--|#
 #|/ /---+--------------------------+/ /---|#
 
 cat <<"EOF"
