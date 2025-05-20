@@ -83,12 +83,6 @@
 **HyprZent** es la configuración definitiva para Hyprland:  
 Un entorno visual, moderno y zen con glass, neón y máxima personalización para tu setup Linux.
 
-- Visual glassy/neón/gradient
-- Modular, rápido y fácil de instalar
-- Experiencia zen: limpia, minimalista y espectacular
-- Soporte multi-distro (**Arch, CachyOS, EndeavourOS, Garuda, NixOS** y más)
-- Integración IA, scripts inteligentes, QR sharing, layouts, autotheme, notificaciones contextuales y mucho más
-
 <div align="right">
   <a href="#readme-top">
     <img src="https://img.shields.io/static/v1?label=&message=↑%20Volver%20arriba&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=homeassistant&logoColor=white" alt="Volver arriba"/>
