@@ -1,305 +1,320 @@
-<div align = center>
-    <a href="https://discord.gg/AYbJ9MJez7">
-<img alt="Dynamic JSON Badge" src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fdiscordapp.com%2Fapi%2Finvites%2FmT5YqjaJFh%3Fwith_counts%3Dtrue&query=%24.approximate_member_count&suffix=%20members&style=for-the-badge&logo=discord&logoSize=auto&label=The%20HyDe%20Project&labelColor=ebbcba&color=c79bf0">
-    </a>
+<!-- Improved compatibility of back to top link -->
+<a id="readme-top"></a>
+
+<!-- PROJECT SHIELDS (palette: blue/white) -->
+[![LICENSE][license-shield]][license-url]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+
+<!-- SOCIALS (tuned for blue harmony) -->
+<div align="center" style="margin-top: 6px; margin-bottom: 10px;">
+  <a href="https://discord.gg/NdtChxcaU8">
+    <img alt="Discord" src="https://img.shields.io/badge/Discord-Zen%20Community-3752E2?logo=discord&logoColor=white&style=for-the-badge"/>
+  </a>
+  <a href="https://github.com/x5368x">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-x5368x-1A2440?logo=github&logoColor=3752E2&style=for-the-badge"/>
+  </a>
 </div>
 
-###### _<div align="right"><a id=-design-by-t2></a><sub>// design by t2</sub></div>_
-
-![hyde_banner](Source/assets/hyde_banner.png)
-
-<!--
-Multi-language KEYBINDINGS support
--->
-
-<!-- [![en](https://img.shields.io/badge/lang-en-red.svg)](KEYBINDINGS.md) -->
-
-[![es](https://img.shields.io/badge/lang-es-yellow.svg)](Source/assets/keybinds/KEYBINDINGS.es.md)
-[![de](https://img.shields.io/badge/lang-de-black.svg)](Source/assets/keybinds/KEYBINDINGS.de.md)
-[![nl](https://img.shields.io/badge/lang-nl-green.svg)](Source/assets/keybinds/KEYBINDINGS.nl.md)
-[![中文](https://img.shields.io/badge/lang-中文-orange.svg)](Source/assets/keybinds/KEYBINDINGS.zh.md)
-[![fr](https://img.shields.io/badge/lang-fr-blue.svg)](Source/assets/keybinds/KEYBINDINGS.fr.md)
-[![ar](https://img.shields.io/badge/lang-AR-orange.svg)](Source/assets/keybinds/KEYBINDINGS.ar.md)
-
-<div align="center">
-
-<br>
-
-<!-- <a href=#hyde-keybindings><kbd> <br> HyDE keybindings <br> </kbd></a>&ensp;&ensp; -->
-
-<a href=#window-management><kbd> <br> Window Management <br> </kbd></a>&ensp;&ensp;
-<a href=#misc><kbd> <br> Misc <br> </kbd></a>&ensp;&ensp;
-<a href=#launcher><kbd> <br> Launcher <br> </kbd></a>&ensp;&ensp;
-<a href=#hardware-controls><kbd> <br> Hardware Controls <br> </kbd></a>&ensp;&ensp;
-<a href=#utilities><kbd> <br> Utilities <br> </kbd></a>&ensp;&ensp;
-<a href="#theming-and-wallpaper"><kbd> <br> Theming and Wallpaper <br> </kbd></a>&ensp;&ensp;
-<a href=#workspaces><kbd> <br> Workspaces <br> </kbd></a>&ensp;&ensp;
-
-</div><br><br>
-
-<div align="center">
-  <div style="display: flex; flex-wrap: nowrap; justify-content: center;">
-    <img src="Source/assets/archlinux.png" alt="Arch Linux" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/cachyos.png" alt="CachyOS" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/endeavouros.png" alt="EndeavourOS" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/garuda.png" alt="Garuda" style="width: 10%; margin: 10px;"/>
-    <img src="Source/assets/nixos.png" alt="NixOS" style="width: 10%; margin: 10px;"/>
-  </div>
+<!-- BANNER -->
+<div align="center" style="margin-bottom:0.7em;">
+  <img src="https://github.com/x5368x/HyprZent/raw/master/README.IMAGES/hyprzent.jpg" alt="HyprZent Banner" width="440" style="border-radius:20px;box-shadow:0 0 32px #3752E2,0 0 4px #fff;"/>
+  <h1 align="center" style="color:#3752E2;letter-spacing:0.15em;font-weight:900;text-shadow:0 2px 18px #3752E2,0 0 4px #fff;">HyprZent<br>Keybindings</h1>
+  <p align="center" style="margin-top:-12px;">
+    <b style="color:#C6D5F8;font-size:1.13em;">Atajos visuales, zen y modernos para Hyprland</b><br>
+    <span style="color:#3752E2;font-weight:bold;">Glass · Gradient · Neon · Modular · Español</span>
+    <br /><br />
+    <a href="https://github.com/x5368x/HyprZent/wiki" style="color:#C6D5F8;"><strong>Volver a la documentación »</strong></a>
+  </p>
 </div>
 
-<!-- # <a id=hyde-keybindings>HyDE Keybindings</a> -->
-<!-- # <a id=hyde-keybindings></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=25&pause=1000&color=CCA9DD&width=435&lines=HyDE%20Keybindings" width="450"/> -->
+<!-- DISTRO GIF -->
+<div align="center" style="margin: 10px 0 24px 0;">
+  <img src="https://raw.githubusercontent.com/x5368x/HyprZent/main/media/distros.gif" alt="Distros compatibles: Arch, CachyOS, EndeavourOS, Garuda, NixOS" height="48"/>
+  <br>
+  <sub style="color:#C6D5F8;">Compatibilidad total: <b>Arch</b>, <b>CachyOS</b>, <b>EndeavourOS</b>, <b>Garuda</b>, <b>NixOS</b> y más</sub>
+</div>
 
-Here are all HyDE specific keybindings listed.
+---
 
-> [!TIP]  
-> <kbd>Super</kbd> + <kbd>/</kbd> shows the keybindings.
+> <img src="https://github.com/x5368x/HyprZent/raw/master/README.IMAGES/zen_light.svg" height="20" style="vertical-align:middle;margin-right:3px;" />  
+> <b>TIP:</b> <kbd>Super</kbd> + <kbd>/</kbd> muestra todos los atajos en pantalla
 
-<!-- ## <a id=window-management>Window Management</a> -->
+---
 
-## <a id=window-management></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Window%20Management" width="450"/>
+## 📄 Navegación rápida
 
-| Keys                                                 | Action                          |
-| :--------------------------------------------------- | :------------------------------ |
-| <kbd>CTRL</kbd> + <kbd>Q</kbd>                       | close focused window            |
-| <kbd>ALT</kbd> + <kbd>F4</kbd>                       | close focused window            |
-| <kbd>SUPER</kbd> + <kbd>Delete</kbd>                 | kill hyprland session           |
-| <kbd>SUPER</kbd> + <kbd>W</kbd>                      | toggle float                    |
-| <kbd>SUPER</kbd> + <kbd>G</kbd>                      | toggle group                    |
-| <kbd>Shift</kbd> + <kbd>F11</kbd>                    | toggle fullscreen               |
-| <kbd>SUPER</kbd> + <kbd>L</kbd>                      | lock screen                     |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>   | toggle pin on focused window    |
-| <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Delete</kbd> | logout menu                     |
-| <kbd>ALT</kbd> + <kbd>Control_R</kbd>                | toggle waybar and reload config |
-| <kbd>SUPER</kbd> + <kbd>J</kbd>                      | toggle split                    |
+<div align="center" style="margin-bottom:0.4em;">
 
-### Group Navigation
+<a href="#ventanas"><img src="https://img.shields.io/static/v1?label=&message=Ventanas&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=windows-terminal&logoColor=white"/></a>
+<a href="#grupo"><img src="https://img.shields.io/static/v1?label=&message=Grupos&color=22396B&labelColor=1A2440&style=for-the-badge&logo=groups&logoColor=white"/></a>
+<a href="#foco"><img src="https://img.shields.io/static/v1?label=&message=Foco&color=395DFB&labelColor=1A2440&style=for-the-badge&logo=window-restore&logoColor=white"/></a>
+<a href="#redimensionar"><img src="https://img.shields.io/static/v1?label=&message=Redimensionar&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=resize&logoColor=white"/></a>
+<a href="#raton"><img src="https://img.shields.io/static/v1?label=&message=Ratón&color=22396B&labelColor=1A2440&style=for-the-badge&logo=mouse&logoColor=white"/></a>
+<a href="#misc"><img src="https://img.shields.io/static/v1?label=&message=Misceláneos&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=apps&logoColor=white"/></a>
+<a href="#launcher"><img src="https://img.shields.io/static/v1?label=&message=Lanzador&color=395DFB&labelColor=1A2440&style=for-the-badge&logo=rocket&logoColor=white"/></a>
+<a href="#hardware"><img src="https://img.shields.io/static/v1?label=&message=Hardware&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=sound&logoColor=white"/></a>
+<a href="#utilidades"><img src="https://img.shields.io/static/v1?label=&message=Utilidades&color=22396B&labelColor=1A2440&style=for-the-badge&logo=tools&logoColor=white"/></a>
+<a href="#temas-y-fondos"><img src="https://img.shields.io/static/v1?label=&message=Temas%20y%20Fondos&color=395DFB&labelColor=1A2440&style=for-the-badge&logo=palette&logoColor=white"/></a>
+<a href="#espacios"><img src="https://img.shields.io/static/v1?label=&message=Espacios%20de%20Trabajo&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=window&logoColor=white"/></a>
 
-| Keys                                              | Action                        |
-| :------------------------------------------------ | :---------------------------- |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>H</kbd> | change active group backwards |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>L</kbd> | change active group forwards  |
+</div>
 
-### Change focus
+---
 
-| Keys                                | Action      |
-| :---------------------------------- | :---------- |
-| <kbd>SUPER</kbd> + <kbd>Left</kbd>  | focus left  |
-| <kbd>SUPER</kbd> + <kbd>Right</kbd> | focus right |
-| <kbd>SUPER</kbd> + <kbd>Up</kbd>    | focus up    |
-| <kbd>SUPER</kbd> + <kbd>Down</kbd>  | focus down  |
-| <kbd>ALT</kbd> + <kbd>Tab</kbd>     | cycle focus |
+## <a id="ventanas"></a>🪟 Gestión de Ventanas
 
-### Resize Active Window
+| <span style="color:#3752E2;">Teclas</span>                      | <span style="color:#C6D5F8;">Acción</span>        |
+| :-------------------------------------------------------------- | :------------------------------------------------ |
+| <kbd>CTRL</kbd> + <kbd>Q</kbd>                                  | Cierra la ventana enfocada                        |
+| <kbd>ALT</kbd> + <kbd>F4</kbd>                                  | Cierra la ventana enfocada                        |
+| <kbd>SUPER</kbd> + <kbd>Delete</kbd>                            | Mata la sesión de Hyprland                        |
+| <kbd>SUPER</kbd> + <kbd>W</kbd>                                 | Alterna modo flotante                             |
+| <kbd>SUPER</kbd> + <kbd>G</kbd>                                 | Alterna grupo                                     |
+| <kbd>Shift</kbd> + <kbd>F11</kbd>                               | Pantalla completa                                 |
+| <kbd>SUPER</kbd> + <kbd>L</kbd>                                 | Bloquear pantalla                                 |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>F</kbd>              | Fijar ventana enfocada                            |
+| <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Delete</kbd>            | Menú de cierre de sesión                          |
+| <kbd>ALT</kbd> + <kbd>Control_R</kbd>                           | Alterna Waybar y recarga configuración            |
+| <kbd>SUPER</kbd> + <kbd>J</kbd>                                 | Alterna modo split                                |
 
-| Keys                                                   | Action              |
-| :----------------------------------------------------- | :------------------ |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Right</kbd> | resize window right |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Left</kbd>  | resize window left  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Up</kbd>    | resize window up    |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Down</kbd>  | resize window down  |
+---
 
-### Move & Resize with mouse
+## <a id="grupo"></a>👥 Navegación entre Grupos
 
-| Keys                                    | Action                |
-| :-------------------------------------- | :-------------------- |
-| <kbd>SUPER</kbd> + <kbd>mouse:272</kbd> | hold to move window   |
-| <kbd>SUPER</kbd> + <kbd>mouse:273</kbd> | hold to resize window |
-| <kbd>SUPER</kbd> + <kbd>Z</kbd>         | hold to move window   |
-| <kbd>SUPER</kbd> + <kbd>X</kbd>         | hold to resize window |
+| <span style="color:#3752E2;">Teclas</span>                | <span style="color:#C6D5F8;">Acción</span> |
+| :-------------------------------------------------------- | :------------------------------------------|
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>H</kbd>         | Grupo anterior                             |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>L</kbd>         | Grupo siguiente                            |
 
-<!-- ## <a id=misc>Misc</a> -->
+---
 
-## <a id=misc></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Misc" width="450"/>
+## <a id="foco"></a>🖱 Cambiar Foco
 
-| Keys                                                                     | Action                         |
-| :----------------------------------------------------------------------- | :----------------------------- |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>left</kbd>  | move activewindow to the left  |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>right</kbd> | move activewindow to the right |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>up</kbd>    | move activewindow up           |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>down</kbd>  | move activewindow down         |
+| <span style="color:#3752E2;">Teclas</span>                 | <span style="color:#C6D5F8;">Acción</span> |
+| :--------------------------------------------------------- | :----------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>Izquierda</kbd>                    | Foco izquierda                            |
+| <kbd>SUPER</kbd> + <kbd>Derecha</kbd>                      | Foco derecha                              |
+| <kbd>SUPER</kbd> + <kbd>Arriba</kbd>                       | Foco arriba                               |
+| <kbd>SUPER</kbd> + <kbd>Abajo</kbd>                        | Foco abajo                                |
+| <kbd>ALT</kbd> + <kbd>Tab</kbd>                            | Cambia el foco                            |
 
-<!-- ## <a id=launcher>Launcher</a> -->
+---
 
-## <a id=launcher></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Launcher" width="450"/>
+## <a id="redimensionar"></a>📐 Redimensionar Ventana
+
+| <span style="color:#3752E2;">Teclas</span>                | <span style="color:#C6D5F8;">Acción</span>  |
+| :-------------------------------------------------------- | :------------------------------------------ |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Derecha</kbd>  | Redimensiona derecha                       |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Izquierda</kbd>| Redimensiona izquierda                     |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Arriba</kbd>   | Redimensiona arriba                        |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>Abajo</kbd>    | Redimensiona abajo                         |
+
+---
+
+## <a id="raton"></a>🖲️ Ratón
+
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>          |
+| :------------------------------------------------- | :-------------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>mouse:272</kbd>            | Mantener para mover ventana                         |
+| <kbd>SUPER</kbd> + <kbd>mouse:273</kbd>            | Mantener para redimensionar                         |
+| <kbd>SUPER</kbd> + <kbd>Z</kbd>                    | Mantener para mover ventana                         |
+| <kbd>SUPER</kbd> + <kbd>X</kbd>                    | Mantener para redimensionar                         |
+
+---
+
+## <a id="misc"></a>🔧 Misceláneos
+
+| <span style="color:#3752E2;">Teclas</span>                                                      | <span style="color:#C6D5F8;">Acción</span>           |
+| :---------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Izquierda</kbd>                    | Mueve ventana activa a la izquierda                  |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Derecha</kbd>                      | Mueve ventana activa a la derecha                    |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Arriba</kbd>                       | Mueve ventana activa arriba                          |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Abajo</kbd>                        | Mueve ventana activa abajo                           |
+
+---
+
+## <a id="launcher"></a>🚀 Lanzador
 
 ### Apps
 
-| Keys                                                   | Action            |
-| :----------------------------------------------------- | :---------------- |
-| <kbd>SUPER</kbd> + <kbd>T</kbd>                        | terminal emulator |
-| <kbd>SUPER</kbd> + <kbd>E</kbd>                        | file explorer     |
-| <kbd>SUPER</kbd> + <kbd>C</kbd>                        | text editor       |
-| <kbd>SUPER</kbd> + <kbd>B</kbd>                        | web browser       |
-| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Escape</kbd> | system monitor    |
+| <span style="color:#3752E2;">Teclas</span>            | <span style="color:#C6D5F8;">Acción</span>        |
+| :---------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>T</kbd>                       | Terminal                                          |
+| <kbd>SUPER</kbd> + <kbd>E</kbd>                       | Explorador de archivos                            |
+| <kbd>SUPER</kbd> + <kbd>C</kbd>                       | Editor de texto                                   |
+| <kbd>SUPER</kbd> + <kbd>B</kbd>                       | Navegador web                                     |
+| <kbd>CTRL</kbd> + <kbd>SHIFT</kbd> + <kbd>Escape</kbd>| Monitor del sistema                               |
 
-### Rofi menus
+### Menús Rofi
 
-| Keys                                               | Action               |
-| :------------------------------------------------- | :------------------- |
-| <kbd>SUPER</kbd> + <kbd>A</kbd>                    | application finder   |
-| <kbd>SUPER</kbd> + <kbd>TAB</kbd>                  | window switcher      |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd> | file finder          |
-| <kbd>SUPER</kbd> + <kbd>slash</kbd>                | keybindings hint     |
-| <kbd>SUPER</kbd> + <kbd>comma</kbd>                | emoji picker         |
-| <kbd>SUPER</kbd> + <kbd>period</kbd>               | glyph picker         |
-| <kbd>SUPER</kbd> + <kbd>V</kbd>                    | clipboard            |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd> | clipboard manager    |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd> | select rofi launcher |
+| <span style="color:#3752E2;">Teclas</span>                | <span style="color:#C6D5F8;">Acción</span>         |
+| :-------------------------------------------------------- | :-----------------------------------------------    |
+| <kbd>SUPER</kbd> + <kbd>A</kbd>                           | Buscador de apps                                   |
+| <kbd>SUPER</kbd> + <kbd>TAB</kbd>                         | Cambiador de ventana                               |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>E</kbd>        | Buscador de archivos                               |
+| <kbd>SUPER</kbd> + <kbd>slash</kbd>                       | Ayuda keybindings                                  |
+| <kbd>SUPER</kbd> + <kbd>comma</kbd>                       | Selector de emojis                                 |
+| <kbd>SUPER</kbd> + <kbd>period</kbd>                      | Selector de glifos                                 |
+| <kbd>SUPER</kbd> + <kbd>V</kbd>                           | Portapapeles                                       |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>V</kbd>        | Gestor portapapeles                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>A</kbd>        | Elegir lanzador Rofi                               |
 
-<!-- ## <a id="hardware-controls">Hardware Controls</a> -->
+---
 
-## <a id="hardware-controls"></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Hardware%20Controls" width="450"/>
+## <a id="hardware"></a>🎧 Hardware
 
 ### Audio
 
-| Keys                                              | Action             |
-| :------------------------------------------------ | :----------------- |
-| <kbd>None</kbd> + <kbd>F10</kbd>                  | toggle mute output |
-| <kbd>None</kbd> + <kbd>XF86AudioMute</kbd>        | toggle mute output |
-| <kbd>None</kbd> + <kbd>F11</kbd>                  | decrease volume    |
-| <kbd>None</kbd> + <kbd>F12</kbd>                  | increase volume    |
-| <kbd>None</kbd> + <kbd>XF86AudioMicMute</kbd>     | un/mute microphone |
-| <kbd>None</kbd> + <kbd>XF86AudioLowerVolume</kbd> | decrease volume    |
-| <kbd>None</kbd> + <kbd>XF86AudioRaiseVolume</kbd> | increase volume    |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>None</kbd> + <kbd>F10</kbd>                   | Silenciar salida                                 |
+| <kbd>None</kbd> + <kbd>XF86AudioMute</kbd>         | Silenciar salida                                 |
+| <kbd>None</kbd> + <kbd>F11</kbd>                   | Bajar volumen                                    |
+| <kbd>None</kbd> + <kbd>F12</kbd>                   | Subir volumen                                    |
+| <kbd>None</kbd> + <kbd>XF86AudioMicMute</kbd>      | Silenciar micrófono                              |
+| <kbd>None</kbd> + <kbd>XF86AudioLowerVolume</kbd>  | Bajar volumen                                    |
+| <kbd>None</kbd> + <kbd>XF86AudioRaiseVolume</kbd>  | Subir volumen                                    |
 
-### Media
+### Medios
 
-| Keys                                        | Action         |
-| :------------------------------------------ | :------------- |
-| <kbd>None</kbd> + <kbd>XF86AudioPlay</kbd>  | play media     |
-| <kbd>None</kbd> + <kbd>XF86AudioPause</kbd> | pause media    |
-| <kbd>None</kbd> + <kbd>XF86AudioNext</kbd>  | next media     |
-| <kbd>None</kbd> + <kbd>XF86AudioPrev</kbd>  | previous media |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>None</kbd> + <kbd>XF86AudioPlay</kbd>         | Reproducir                                       |
+| <kbd>None</kbd> + <kbd>XF86AudioPause</kbd>        | Pausar                                           |
+| <kbd>None</kbd> + <kbd>XF86AudioNext</kbd>         | Siguiente pista                                  |
+| <kbd>None</kbd> + <kbd>XF86AudioPrev</kbd>         | Pista anterior                                   |
 
-### Brightness
+### Brillo
 
-| Keys                                               | Action              |
-| :------------------------------------------------- | :------------------ |
-| <kbd>None</kbd> + <kbd>XF86MonBrightnessUp</kbd>   | increase brightness |
-| <kbd>None</kbd> + <kbd>XF86MonBrightnessDown</kbd> | decrease brightness |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>None</kbd> + <kbd>XF86MonBrightnessUp</kbd>   | Subir brillo                                     |
+| <kbd>None</kbd> + <kbd>XF86MonBrightnessDown</kbd> | Bajar brillo                                     |
 
-<!-- ## <a id=utilities>Utilities</a> -->
+---
 
-## <a id=utilities></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Utilities" width="450"/>
+## <a id="utilidades"></a>🛠️ Utilidades
 
-| Keys                                             | Action                 |
-| :----------------------------------------------- | :--------------------- |
-| <kbd>SUPER</kbd> + <kbd>K</kbd>                  | toggle keyboard layout |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>G</kbd> | game mode              |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>K</kbd>                    | Cambiar idioma teclado                           |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>G</kbd>   | Modo juego                                      |
 
-### Screen Capture
+### Captura de pantalla
 
-| Keys                                               | Action                 |
-| :------------------------------------------------- | :--------------------- |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd> | color picker           |
-| <kbd>SUPER</kbd> + <kbd>P</kbd>                    | snip screen            |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>P</kbd>  | freeze and snip screen |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>P</kbd>   | print monitor          |
-| <kbd>None</kbd> + <kbd>Print</kbd>                 | print all monitors     |
+| <span style="color:#3752E2;">Teclas</span>                | <span style="color:#C6D5F8;">Acción</span>       |
+| :-------------------------------------------------------- | :----------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>P</kbd>        | Selector de color                               |
+| <kbd>SUPER</kbd> + <kbd>P</kbd>                           | Recorte de pantalla                             |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>P</kbd>         | Congelar y recortar                             |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>P</kbd>          | Imprimir monitor                                |
+| <kbd>None</kbd> + <kbd>Print</kbd>                        | Imprimir todos monitores                        |
 
-<!-- ## <a id=theming-and-wallpaper>Theming and Wallpaper</a> -->
+---
 
-## <a id=theming-and-wallpaper></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Theming%20and%20Wallpaper" width="450"/>
+## <a id="temas-y-fondos"></a>🎨 Temas y Fondo de Pantalla
 
-| Keys                                                 | Action                 |
-| :--------------------------------------------------- | :--------------------- |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Right</kbd> | next wallpaper         |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Left</kbd>  | previous wallpaper     |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd>   | select a wallpaper     |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Up</kbd>    | next waybar layout     |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Down</kbd>  | previous waybar layout |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>   | wallbash mode selector |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>   | select a theme         |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Derecha</kbd>   | Siguiente fondo                                |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Izquierda</kbd> | Fondo anterior                                 |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>W</kbd>       | Seleccionar fondo                               |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Arriba</kbd>    | Siguiente layout waybar                         |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>Abajo</kbd>     | Layout waybar anterior                          |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>R</kbd>       | Selector modo wallbash                          |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>T</kbd>       | Seleccionar tema                                |
 
-<!-- ## <a id=workspaces>Workspaces</a> -->
+---
 
-## <a id=workspaces></a><img src="https://readme-typing-svg.herokuapp.com?font=Lexend+Giga&size=23&pause=1000&color=CCA9DD&width=435&lines=Workspaces" width="450"/>
+## <a id="espacios"></a>🖥️ Espacios de Trabajo
 
-### Navigation
+### Navegación
 
-| Keys                                                 | Action                                  |
-| :--------------------------------------------------- | :-------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>1</kbd>                      | navigate to workspace 1                 |
-| <kbd>SUPER</kbd> + <kbd>2</kbd>                      | navigate to workspace 2                 |
-| <kbd>SUPER</kbd> + <kbd>3</kbd>                      | navigate to workspace 3                 |
-| <kbd>SUPER</kbd> + <kbd>4</kbd>                      | navigate to workspace 4                 |
-| <kbd>SUPER</kbd> + <kbd>5</kbd>                      | navigate to workspace 5                 |
-| <kbd>SUPER</kbd> + <kbd>6</kbd>                      | navigate to workspace 6                 |
-| <kbd>SUPER</kbd> + <kbd>7</kbd>                      | navigate to workspace 7                 |
-| <kbd>SUPER</kbd> + <kbd>8</kbd>                      | navigate to workspace 8                 |
-| <kbd>SUPER</kbd> + <kbd>9</kbd>                      | navigate to workspace 9                 |
-| <kbd>SUPER</kbd> + <kbd>0</kbd>                      | navigate to workspace 10                |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Down</kbd> | navigate to the nearest empty workspace |
-| <kbd>SUPER</kbd> + <kbd>mouse_down</kbd>             | next workspace                          |
-| <kbd>SUPER</kbd> + <kbd>mouse_up</kbd>               | previous workspace                      |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>1</kbd>                    | Ir a espacio de trabajo 1                        |
+| <kbd>SUPER</kbd> + <kbd>2</kbd>                    | Ir a espacio de trabajo 2                        |
+| <kbd>SUPER</kbd> + <kbd>3</kbd>                    | Ir a espacio de trabajo 3                        |
+| <kbd>SUPER</kbd> + <kbd>4</kbd>                    | Ir a espacio de trabajo 4                        |
+| <kbd>SUPER</kbd> + <kbd>5</kbd>                    | Ir a espacio de trabajo 5                        |
+| <kbd>SUPER</kbd> + <kbd>6</kbd>                    | Ir a espacio de trabajo 6                        |
+| <kbd>SUPER</kbd> + <kbd>7</kbd>                    | Ir a espacio de trabajo 7                        |
+| <kbd>SUPER</kbd> + <kbd>8</kbd>                    | Ir a espacio de trabajo 8                        |
+| <kbd>SUPER</kbd> + <kbd>9</kbd>                    | Ir a espacio de trabajo 9                        |
+| <kbd>SUPER</kbd> + <kbd>0</kbd>                    | Ir a espacio de trabajo 10                       |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Abajo</kbd> | Ir al espacio vacío más cercano               |
+| <kbd>SUPER</kbd> + <kbd>mouse_down</kbd>           | Siguiente espacio de trabajo                     |
+| <kbd>SUPER</kbd> + <kbd>mouse_up</kbd>             | Espacio de trabajo anterior                      |
 
-#### Relative workspace
+#### Espacio relativo
 
-| Keys                                                  | Action                            |
-| :---------------------------------------------------- | :-------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Right</kbd> | change active workspace forwards  |
-| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Left</kbd>  | change active workspace backwards |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Derecha</kbd>  | Siguiente espacio de trabajo                 |
+| <kbd>SUPER</kbd> + <kbd>CTRL</kbd> + <kbd>Izquierda</kbd> | Espacio de trabajo anterior                  |
 
-#### Special workspace
+#### Espacio especial
 
-| Keys                                               | Action                      |
-| :------------------------------------------------- | :-------------------------- |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | move to scratchpad          |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>S</kbd>   | move to scratchpad (silent) |
-| <kbd>SUPER</kbd> + <kbd>S</kbd>                    | toggle scratchpad           |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>S</kbd> | Mover a scratchpad                              |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>S</kbd>   | Mover a scratchpad (silencio)                   |
+| <kbd>SUPER</kbd> + <kbd>S</kbd>                    | Alternar scratchpad                             |
 
-#### Move window silently
+#### Mover ventana silenciosamente
 
-| Keys                                             | Action                        |
-| :----------------------------------------------- | :---------------------------- |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>1</kbd> | move to workspace 1 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>2</kbd> | move to workspace 2 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>3</kbd> | move to workspace 3 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>4</kbd> | move to workspace 4 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>5</kbd> | move to workspace 5 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>6</kbd> | move to workspace 6 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>7</kbd> | move to workspace 7 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>8</kbd> | move to workspace 8 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>9</kbd> | move to workspace 9 (silent)  |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>0</kbd> | move to workspace 10 (silent) |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>1</kbd>   | Mover a espacio 1 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>2</kbd>   | Mover a espacio 2 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>3</kbd>   | Mover a espacio 3 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>4</kbd>   | Mover a espacio 4 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>5</kbd>   | Mover a espacio 5 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>6</kbd>   | Mover a espacio 6 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>7</kbd>   | Mover a espacio 7 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>8</kbd>   | Mover a espacio 8 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>9</kbd>   | Mover a espacio 9 (silencio)                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>0</kbd>   | Mover a espacio 10 (silencio)                    |
 
-### Move window to workspace
+### Mover ventana a espacio de trabajo
 
-| Keys                                               | Action               |
-| :------------------------------------------------- | :------------------- |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>1</kbd> | move to workspace 1  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>2</kbd> | move to workspace 2  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>3</kbd> | move to workspace 3  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>4</kbd> | move to workspace 4  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>5</kbd> | move to workspace 5  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>6</kbd> | move to workspace 6  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>7</kbd> | move to workspace 7  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>8</kbd> | move to workspace 8  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>9</kbd> | move to workspace 9  |
-| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>0</kbd> | move to workspace 10 |
+| <span style="color:#3752E2;">Teclas</span>         | <span style="color:#C6D5F8;">Acción</span>        |
+| :------------------------------------------------- | :-----------------------------------------------  |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>1</kbd> | Mover a espacio 1                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>2</kbd> | Mover a espacio 2                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>3</kbd> | Mover a espacio 3                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>4</kbd> | Mover a espacio 4                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>5</kbd> | Mover a espacio 5                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>6</kbd> | Mover a espacio 6                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>7</kbd> | Mover a espacio 7                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>8</kbd> | Mover a espacio 8                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>9</kbd> | Mover a espacio 9                                |
+| <kbd>SUPER</kbd> + <kbd>SHIFT</kbd> + <kbd>0</kbd> | Mover a espacio 10                               |
 
-| Keys                                                                   | Action                                     |
-| :--------------------------------------------------------------------- | :----------------------------------------- |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Right</kbd> | move window to next relative workspace     |
-| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Left</kbd>  | move window to previous relative workspace |
+| <span style="color:#3752E2;">Teclas</span>                              | <span style="color:#C6D5F8;">Acción</span>            |
+| :---------------------------------------------------------------------  | :---------------------------------------------------- |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Derecha</kbd>| Mover ventana a espacio siguiente                     |
+| <kbd>SUPER</kbd> + <kbd>ALT</kbd> + <kbd>CTRL</kbd> + <kbd>Izquierda</kbd>| Mover ventana a espacio anterior                    |
 
-<!--
-<div align="right">
-  <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
-</div>
-
-<div align="center">
-
-</div>
--->
+---
 
 <div align="right">
-  <br>
-  <a href="#-design-by-t2"><kbd> <br> 🡅 <br> </kbd></a>
+  <a href="#readme-top">
+    <img src="https://img.shields.io/static/v1?label=&message=↑%20Volver%20arriba&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=homeassistant&logoColor=white" alt="Volver arriba"/>
+  </a>
 </div>
 
-<div align="right">
-  <sub>Last edited on: 02/01/2025<span id="last-edited"></span></sub>
-</div>
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[contributors-url]: https://github.com/x5368x/HyprZent/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[forks-url]: https://github.com/x5368x/HyprZent/network/members
+[stars-shield]: https://img.shields.io/github/stars/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[stars-url]: https://github.com/x5368x/HyprZent/stargazers
+[issues-shield]: https://img.shields.io/github/issues/x5368x/HyprZent?style=flat-square&color=3772ff&labelColor=464749
+[issues-url]: https://github.com/x5368x/HyprZent/issues
+[license-shield]: https://img.shields.io/badge/LICENSE-MIT-3772ff.svg?style=flat-square&labelColor=464749
+[license-url]: https://github.com/x5368x/HyprZent/blob/master/LICENSE
