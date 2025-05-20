@@ -46,17 +46,17 @@
 
 <div align="center">
 
-<a href="#ventanas"><img src="https://img.shields.io/static/v1?label=&message=Ventanas&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=windows-terminal&logoColor=white"/></a>
-<a href="#grupo"><img src="https://img.shields.io/static/v1?label=&message=Grupos&color=22396B&labelColor=1A2440&style=for-the-badge&logo=googlegroups&logoColor=white"/></a>
-<a href="#foco"><img src="https://img.shields.io/static/v1?label=&message=Foco&color=395DFB&labelColor=1A2440&style=for-the-badge&logo=focusrite&logoColor=white"/></a>
-<a href="#redimensionar"><img src="https://img.shields.io/static/v1?label=&message=Redimensionar&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=aspectratio&logoColor=white"/></a>
-<a href="#raton"><img src="https://img.shields.io/static/v1?label=&message=Ratón&color=22396B&labelColor=1A2440&style=for-the-badge&logo=logitech&logoColor=white"/></a>
-<a href="#misc"><img src="https://img.shields.io/static/v1?label=&message=Misceláneos&color=3752E2&labelColor=1A2440&style=for-the-badge"/></a>
-<a href="#launcher"><img src="https://img.shields.io/static/v1?label=&message=Lanzador&color=395DFB&labelColor=1A2440&style=for-the-badge&logo=rocket&logoColor=white"/></a>
-<a href="#hardware"><img src="https://img.shields.io/static/v1?label=&message=Hardware&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=audio-technica&logoColor=white"/></a>
-<a href="#utilidades"><img src="https://img.shields.io/static/v1?label=&message=Utilidades&color=22396B&labelColor=1A2440&style=for-the-badge&logo=toolforge&logoColor=white"/></a>
-<a href="#temas-y-fondos"><img src="https://img.shields.io/static/v1?label=&message=Temas%20y%20Fondos&color=395DFB&labelColor=1A2440&style=for-the-badge&logo=adobe&logoColor=white"/></a>
-<a href="#espacios"><img src="https://img.shields.io/static/v1?label=&message=Espacios%20de%20Trabajo&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=windows&logoColor=white"/></a>
+<a href="#ventanas"><kbd>Ventanas</kbd></a>
+<a href="#grupo"><kbd>Grupos</kbd></a>
+<a href="#foco"><kbd>Foco</kbd></a>
+<a href="#redimensionar"><kbd>Redimensionar</kbd></a>
+<a href="#raton"><kbd>Ratón</kbd></a>
+<a href="#misc"><kbd>Misceláneos</kbd></a>
+<a href="#launcher"><kbd>Lanzador</kbd></a>
+<a href="#hardware"><kbd>Hardware</kbd></a>
+<a href="#utilidades"><kbd>Utilidades</kbd></a>
+<a href="#temas-y-fondos"><kbd>Temas y Fondos</kbd></a>
+<a href="#espacios"><kbd>Espacios de Trabajo</kbd></a>
 
 </div>
 
