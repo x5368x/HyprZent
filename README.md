@@ -6,10 +6,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
-
-[license-shield]: https://img.shields.io/github/license/x5368x/HyprZent.svg
-[license-url]: https://github.com/x5368x/HyprZent/blob/master/LICENSE
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/x5368x/HyprZent/blob/master/LICENSE)
 
 <!-- SOCIALS (tuned for blue harmony) -->
 <div align="center">
