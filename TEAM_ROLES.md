@@ -57,7 +57,7 @@ Las pruebas y feedback se coordinan y reportan en el canal de Discord, donde se 
 
 ## 📝 ¿Cómo postularte al Team HyprZent?
 
-1. Únete al [servidor oficial de Discord](#) y preséntate (cuéntanos tu experiencia/intereses).
+1. Únete al [servidor oficial de Discord](https://discord.gg/NdtChxcaU8) y preséntate (cuéntanos tu experiencia/intereses).
 2. Participa activamente: colabora en testing, discusión o envía PRs a la rama `dev`.
 3. Si quieres formalizar tu rol, solicita tu incorporación como **Colaborador/a** o **Tester** en el canal correspondiente del Discord.
 4. El equipo de mantenimiento revisará tu participación y te asignará el rol oficialmente en el servidor.
