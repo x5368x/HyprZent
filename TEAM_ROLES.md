@@ -1,67 +1,82 @@
-# Team Roles and Responsibilities
+## Roles y Responsabilidades en HyprZent
 
-This document outlines the different roles and responsibilities within the HyDE project.
+¡Bienvenido a **HyprZent**!  
+Este proyecto es una comunidad abierta, colaborativa y dinámica dedicada a crear el mejor dotfile para entornos Hyprland. Aquí cada aporte suma, ya sea programando, probando, documentando o proponiendo ideas. Si tienes ganas de aprender, compartir y crecer, ¡te invitamos a formar parte del **Team HyprZent**!
 
-## Entry Paths for New Contributors
+---
 
-New contributors typically start in one of two roles:
+## 🚪 ¿Cómo unirte a HyprZent?
 
-1. **Collaborator**: Focus on code review, triaging issues and pull requests, and contributing code
-2. **Tester**: Focus on quality assurance and testing
+En HyprZent valoramos el trabajo en equipo y la transparencia. Cualquier persona puede participar y evolucionar dentro del proyecto.  
+Actualmente, los caminos principales para sumarte son:
 
-Both paths provide valuable experience and a chance to learn about the project while contributing meaningfully.
+1. **Colaborador/a**  
+   - Participa en el desarrollo, revisión de código, gestión de tareas y propuestas de mejora.
+2. **Tester**  
+   - Enfócate en asegurar la calidad, probando nuevas funciones, detectando bugs, validando experiencias y proponiendo feedback.
 
-## Collaborators
+> **Nota:**  
+> Para pruebas, feedback y coordinación usamos el **servidor oficial de Discord**.  
+> ¡Solicita acceso y preséntate para empezar a colaborar!
 
-Collaborators have various responsibilities which may include:
+---
 
-- Labeling and categorizing issues appropriately
-- Identifying duplicate issues
-- Helping to prioritize work
-- Submitting high-quality pull requests
-- Participating in code reviews
-- Managing issues and discussions
-- Contributing code and documentation
-- Helping maintain project quality and standards
-- Participating in project planning and roadmap discussions
-- Mentoring new contributors
+## 🛠️ Rol de Colaborador/a
 
-Different collaborators may focus on different aspects based on their skills and interests.
+Como colaborador/a puedes:
 
-### Granting Write Access
+- Revisar y comentar código de otros miembros.
+- Etiquetar, organizar y priorizar issues.
+- Proponer y enviar pull requests (PRs) bien documentados y testeados.
+- Participar en discusiones técnicas y decisiones de roadmap.
+- Mantener y mejorar la documentación.
+- Ayudar a nuevos/as integrantes y compartir buenas prácticas.
+- Idear nuevas funciones y elevar la calidad general del proyecto.
 
-Write access to the repository is granted only after:
+**Importante:**  
+Por seguridad y estabilidad, el acceso de escritura directo al repositorio solo se otorga a quienes demuestran compromiso y conocimiento durante al menos 3-6 meses, participan activamente en el Discord y mantienen buena comunicación y documentación de sus aportes.
 
-1. **Time-based evaluation**: Contributors must be actively involved with the project for a minimum of 3-6 months, showing consistent contributions and engagement.
-2. **Code familiarity**: Maintainers must be confident that the contributor thoroughly understands the codebase they're working with.
-3. **Trust establishment**: Due to past experiences with contributors who gained access and later abandoned the project, we require demonstration of long-term commitment.
-4. **Knowledge transfer**: Contributors must document their work sufficiently so that others can maintain their code if necessary.
-5. **Code review history**: A track record of thoughtful code reviews and responsive updates to feedback.
+---
 
-This careful approach to granting write access helps maintain project stability and ensures that all code is properly maintained over time.
+## 🧪 Rol de Tester
 
-## Testers
+Los testers garantizan la estabilidad y experiencia de HyprZent.  
+Sus responsabilidades incluyen:
 
-Testers focus on quality assurance throughout the development process. Their responsibilities include:
+- Probar nuevas características y correcciones en la rama `dev`.
+- Reportar errores, comportamientos inesperados y sugerencias en el Discord.
+- Realizar pruebas de regresión antes de cada release.
+- Documentar procedimientos y resultados de testing.
+- Colaborar con desarrolladores/as para aislar y reproducir bugs.
+- Validar la experiencia de usuario e interfaz.
 
-- Verifying bug fixes and new features in the `dev` branch
-- Writing and executing test cases
-- Performing regression testing before releases
-- Helping to identify edge cases and potential issues
-- Documenting testing procedures and results
-- Providing feedback on user experience
-- Working with developers to reproduce and isolate bugs
+**¿Cómo testear?**  
+Las pruebas y feedback se coordinan y reportan en el canal de Discord, donde se comparten builds, instrucciones y prioridades semanales.
 
-Effective testing is critical to maintaining high quality standards and ensuring a stable product for users.
+---
 
-## How to Join
+## 📝 ¿Cómo postularte al Team HyprZent?
 
-If you're interested in taking on any of these roles, please:
+1. Únete al [servidor oficial de Discord](#) y preséntate (cuéntanos tu experiencia/intereses).
+2. Participa activamente: colabora en testing, discusión o envía PRs a la rama `dev`.
+3. Si quieres formalizar tu rol, solicita tu incorporación como **Colaborador/a** o **Tester** en el canal correspondiente del Discord.
+4. El equipo de mantenimiento revisará tu participación y te asignará el rol oficialmente en el servidor.
 
-1. Contribute regularly to the project to demonstrate your skills and commitment
-2. Open a pull request to add your name to the CONTRIBUTORS.md file as either a "Collaborator" or "Tester"
-3. In the PR description, include your relevant experience and what you hope to contribute in this role
+> **Nota:**  
+> Por ahora, la gestión de roles y validación de nuevas personas se realiza **exclusivamente** en el servidor de Discord, no mediante archivos como `COLLABORATORS.md`.
 
-Project maintainers will review your contribution history and PR before approving the role assignment.
+---
 
-Note: Initially, collaborators won't have write access to the repository. Write access is granted based on the criteria outlined in the "Granting Write Access" section after demonstrating consistent contributions over time.
+## 🤝 Valores del Team HyprZent
+
+- **Comunidad:** Nadie sabe todo, pero todos juntos sabemos mucho más.
+- **Respeto:** Cada aporte y opinión es bienvenida, siempre con respeto y empatía.
+- **Transparencia:** Compartimos avances, problemas y decisiones en Discord.
+- **Mejora continua:** Siempre buscamos aprender y mejorar, tanto el dotfile como nuestro flujo de trabajo.
+
+---
+
+## 💡 ¿Tienes dudas o quieres aportar?
+
+Únete a nuestro Discord, participa, pregunta, propone y crece junto al **Team HyprZent**.  
+**¡Contamos contigo para hacer de HyprZent el mejor dotfile y comunidad de Hyprland!**
