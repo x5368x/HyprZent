@@ -292,7 +292,7 @@ Agradecimientos a la comunidad y a proyectos que inspiran HyprZent:
 
 * [Hyprland](https://github.com/hyprwm/Hyprland)
 * [Shields.io](https://shields.io)
-* [Arch, NixOS, CachyOS, Garuda, EndeavourOS]
+* Arch, NixOS, CachyOS, Garuda, EndeavourOS
 * [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
