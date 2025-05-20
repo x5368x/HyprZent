@@ -1,149 +1,113 @@
-# Commit Message Guidelines
+# Guía PRO para Mensajes de Commit 🚀
 
-A good commit message should be descriptive and provide context about the changes made. This makes it easier to understand and review the changes in the future.
+Un historial de commits impecable es la mejor carta de presentación para cualquier proyecto. Es la base para entender la evolución del código, facilitar revisiones, encontrar errores y colaborar de forma eficiente. Si quieres que tu repo sea mantenible y profesional, dedica tiempo a tus mensajes de commit.
 
-Here are some guidelines for writing descriptive commit messages:
+---
 
-- Start with a short summary of the changes made in the commit.
+## ⭐ Principios Clave
 
-- Use imperative mood for the summary, as if you're giving a command. For example, "Add feature" instead of "Added feature".
+1. **Un commit, un propósito:**  
+   Cada commit debe ser atómico. Si estás cambiando dos cosas distintas, haz dos commits.
 
-- Provide additional details in the commit message body, if necessary. This could include the reason for the change, the impact of the change, or any dependencies that were introduced or removed.
+2. **El mensaje es tu legado:**  
+   Escribe para tu yo del futuro y para tus compañeros. Explica el _qué_, el _por qué_ y, cuando sea relevante, el _cómo_ del cambio.
 
-- Keep the message within 72 characters per line to ensure that it's easy to read in Git log output.
+3. **Los mensajes cortos salvan vidas:**  
+   El resumen debe ser breve (máx. 50 caracteres). Si hay más que decir, expándelo en el cuerpo.
 
-Examples of good commit messages:
+4. **El primer renglón, en modo imperativo:**  
+   Ejemplo:  
+   - ✅ `Agrega validación de emails`  
+   - ❌ `Agregando validación de emails`  
+   - ❌ `Agregado validación de emails`  
 
-- "Add authentication feature for user login"
-- "Fix bug causing application to crash on startup"
-- "Update documentation for API endpoints"
+5. **Líneas cortas, historia legible:**  
+   Envuelve el cuerpo a 72 caracteres por línea.
 
-Remember, writing descriptive commit messages can save time and frustration in the future, and help others understand the changes made to the codebase.
+6. **Haz referencia a issues y tareas:**  
+   Ejemplo: `Closes #123`, `Refs #45`
 
-## Commit Message Types
+---
 
-Here's a more comprehensive list of commit types that you can use:
+## 📝 Estructura Recomendada
 
-`feat`: Adding a new feature to the project
+```
+<tipo>(opcional: alcance): resumen corto en modo imperativo
 
-```markdown
-feat: Add multi-image upload support
+(Cuerpo opcional: Explica el contexto, motivo, impacto, limitaciones, etc.
+Incluye referencias a issues o pull requests si aplica.)
+
+Ejemplo:
+feat(auth): permite login con Twitter
+
+Se añadió la autenticación vía OAuth para Twitter. El usuario puede conectar
+su cuenta y acceder con un solo clic. Refs #22
 ```
 
-`fix`: Fixing a bug or issue in the project
+---
 
-```markdown
-fix: Fix bug causing application to crash on startup
+## 🏷️ Tipos de Commit (prefijos convencionales)
+
+| Tipo        | Para qué usarlo                                           | Ejemplo                                         |
+|-------------|----------------------------------------------------------|-------------------------------------------------|
+| `feat`      | Nueva funcionalidad                                      | `feat: agrega modo oscuro`                      |
+| `fix`       | Corrección de bugs                                       | `fix: evita crash al subir PDF`                 |
+| `docs`      | Cambios en documentación                                 | `docs: aclara uso del archivo settings.yml`     |
+| `style`     | Cambios de formato/estilo (sin afectar lógica)           | `style: reordena imports en api.py`             |
+| `refactor`  | Refactorización sin cambio de funcionalidad              | `refactor: simplifica lógica de rutas`          |
+| `test`      | Añade o corrige tests                                    | `test: testea caso límite en parser`            |
+| `chore`     | Tareas de mantenimiento (deps, scripts, configs, etc.)   | `chore: actualiza dependencias`                 |
+| `perf`      | Mejoras de rendimiento                                   | `perf: optimiza renderizado en móvil`           |
+| `ci`        | Integración continua (GitHub Actions, Travis, etc.)      | `ci: corrige nombre de workflow`                |
+| `build`     | Cambios de build, empaquetado, dependencias              | `build: actualiza versión de node`              |
+| `security`  | Cambios de seguridad                                     | `security: elimina XSS en comentarios`          |
+| `merge`     | Fusión de ramas                                          | `merge: integra rama develop`                   |
+| `revert`    | Reversión de un commit                                   | `revert: revierte feat: login con Twitter`      |
+| `config`    | Cambios en archivos de configuración                     | `config: ajusta eslint para nuevos estándares`  |
+| `deploy`    | Modificaciones en despliegue                             | `deploy: automatiza subida a Netlify`           |
+| `init`      | Primer commit / inicialización de proyecto               | `init: estructura base del proyecto`            |
+| `move`      | Movimiento de archivos/directorios                       | `move: traslada assets a public/`               |
+| `rename`    | Renombrar archivos, carpetas, variables, etc.            | `rename: renombra UserController a AuthCtrl`    |
+| `remove`    | Eliminaciones (archivos, código, dependencias)           | `remove: elimina tests obsoletos`               |
+| `update`    | Cambios varios menores (usa con moderación)              | `update: actualiza ejemplos en README`          |
+
+> **Personaliza los tipos si tu equipo lo necesita, pero documenta y usa siempre los mismos.**
+
+---
+
+## 🖋️ Consejos PRO
+
+- **Evita “fixes”, “updates”, “varios”, “ajustes”, etc. sin contexto.**  
+  Sé específico.
+- **Haz commits pequeños y frecuentes.**  
+  Es más fácil revertir y entender cada cambio.
+- **No subas commits con contenido no relacionado.**  
+  (Por ejemplo, no mezcles cambios de dependencias y de lógica en uno solo.)
+- **Prefiere el español si tu equipo lo prefiere, pero sé coherente.**
+- **Incluye siempre referencias automáticas a issues o PRs cuando corresponda.**
+
+---
+
+## 💡 Plantilla universal
+
+```
+<tipo>(opcional: alcance): resumen breve en imperativo
+
+(Explicación detallada si es necesario, contexto, motivo, referencias…)
+
+Refs #xx / Closes #yy
 ```
 
-`docs`: Updating documentation in the project
+---
 
-```markdown
-docs: Update documentation for API endpoints
-```
+## 📚 Recursos Recomendados
 
-`style`: Making cosmetic or style changes to the project (such as changing colors or formatting code)
+- [Conventional Commits (ES)](https://www.conventionalcommits.org/es/v1.0.0/)
+- [Cómo escribir un buen mensaje de commit (ES)](https://cbea.ms/git-commit/)
+- [Guía Angular Commit Message](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#commit)
 
-```markdown
-style: Update colors and formatting
-```
+---
 
-`refactor`: Making code changes that don't affect the behavior of the project, but improve its quality or maintainability
-
-```markdown
-refactor: Remove unused code
-```
-
-`test`: Adding or modifying tests for the project
-
-```markdown
-test: Add tests for new feature
-```
-
-`chore`: Making changes to the project that don't fit into any other category, such as updating dependencies or configuring the build system
-
-```markdown
-chore: Update dependencies
-```
-
-`perf`: Improving performance of the project
-
-```markdown
-perf: Improve performance of image processing
-```
-
-`security`: Addressing security issues in the project
-
-```markdown
-security: Update dependencies to address security issues
-```
-
-`merge`: Merging branches in the project
-
-```markdown
-merge: Merge branch 'feature/branch-name' into develop
-```
-
-`revert`: Reverting a previous commit
-
-```markdown
-revert: Revert "Add feature"
-```
-
-`build`: Making changes to the build system or dependencies of the project
-
-```markdown
-build: Update dependencies
-```
-
-`ci`: Making changes to the continuous integration (CI) system for the project
-
-```markdown
-ci: Update CI configuration
-```
-
-`config`: Making changes to configuration files for the project
-
-```markdown
-config: Update configuration files
-```
-
-`deploy`: Making changes to the deployment process for the project
-
-```markdown
-deploy: Update deployment scripts
-```
-
-`init`: Creating or initializing a new repository or project
-
-```markdown
-init: Initialize project
-```
-
-`move`: Moving files or directories within the project
-
-```markdown
-move: Move files to new directory
-```
-
-`rename`: Renaming files or directories within the project
-
-```markdown
-rename: Rename files
-```
-
-`remove`: Removing files or directories from the project
-
-```markdown
-remove: Remove files
-```
-
-`update`: Updating code, dependencies, or other components of the project
-
-```markdown
-update: Update code
-```
-
-These are just some examples, and you can create your own custom commit types as well. However, it's important to use them consistently and write clear, descriptive commit messages to make it easy for others to understand the changes you've made.
-
-**Important:** If you are planning to use a custom commit message type other than the ones listed above, make sure to add it to this list so that others can understand it as well. Create a pull request to add it to this file.
+¿Dudas o sugerencias?  
+¡Propón tus cambios en este archivo vía Pull Request!  
+Haz de tu historial de commits una obra de arte digital.
