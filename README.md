@@ -302,21 +302,29 @@ Project Link: [https://github.com/x5368x/HyprZent](https://github.com/x5368x/Hyp
 
 ---
 
-## 🙏 Créditos <span id="acknowledgments"></span>
+## 📚 Documentación Esencial de HyprZent
 
-Agradecimientos a la comunidad y a proyectos que inspiran HyprZent:
+A continuación, te dejamos los enlaces clave para contribuir, entender y sacar el máximo partido a HyprZent.  
+Están ordenados de mayor a menor importancia para que priorices tu lectura:
 
-* [Hyprland](https://github.com/hyprwm/Hyprland)
-* [Shields.io](https://shields.io)
-* Arch, NixOS, CachyOS, Garuda, EndeavourOS
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+1. [Guía de Mensajes de Commit](https://github.com/x5368x/HyprZent/blob/master/COMMIT_MESSAGE_GUIDELINES.md)  
+   ✨ Aprende cómo escribir mensajes de commit claros, útiles y profesionales.
 
-<div align="right">
-  <a href="#readme-top">
-    <img src="https://img.shields.io/static/v1?label=&message=↑%20Volver%20arriba&color=3752E2&labelColor=1A2440&style=for-the-badge&logo=homeassistant&logoColor=white" alt="Volver arriba"/>
-  </a>
-</div>
+2. [Atajos & Keybindings](https://github.com/x5368x/HyprZent/blob/master/KEYBINDINGS.md)  
+   ⌨️ Descubre y personaliza los atajos de teclado más potentes de HyprZent.
+
+3. [Política de Releases](https://github.com/x5368x/HyprZent/blob/master/RELEASE_POLICY.md)  
+   🚦 Conoce cómo y cuándo lanzamos nuevas versiones, y cómo puedes participar en el ciclo de releases.
+
+4. [Roles y Equipo](https://github.com/x5368x/HyprZent/blob/master/TEAM_ROLES.md)  
+   🤝 Entérate de cómo funciona el equipo, los roles disponibles y cómo unirte al Team HyprZent.
+
+5. [Guía para Testers](https://github.com/x5368x/HyprZent/blob/master/TESTING.md)  
+   🧪 Aprende a testear, reportar bugs y ayudar a mejorar HyprZent desde dentro.
+
+---
+
+> **Créditos:** Inspirado y basado en aprendizajes del Hyde Project. ¡Gracias por motivar a la comunidad a crecer!
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [contributors-shield]: https://img.shields.io/github/contributors/x5368x/HyprZent.svg?color=3752E2&style=for-the-badge
@@ -329,4 +337,3 @@ Agradecimientos a la comunidad y a proyectos que inspiran HyprZent:
 [issues-url]: https://github.com/x5368x/HyprZent/issues
 [license-shield]: https://img.shields.io/github/license/x5368x/HyprZent.svg?color=111C3B&style=for-the-badge
 [license-url]: https://github.com/x5368x/HyprZent/blob/main/LICENSE
-[product-screenshot]: static%20(2).png
