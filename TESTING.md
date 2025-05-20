@@ -1,131 +1,139 @@
-# Testers Guide
+# Guía PRO para Testers de HyprZent 🧪✨
 
-## Getting the Latest Dev Version
+¡Bienvenido/a al equipo de testers de **HyprZent**!  
+Aquí tu curiosidad, tu ojo crítico y tus ganas de romper cosas para mejorar son el motor de nuestra evolución.  
+Gracias a quienes testean, HyprZent es más robusto, usable y sorprendente con cada release.  
+Esta guía te enseña cómo sacar todo el provecho a tu rol, colaborar fácilmente y reportar como un/a PRO.
 
-The `dev` branch has all the new cool stuff that needs testing before we merge it to `master`. Here's how you grab it:
+---
 
-### Setting Up Dev Branch
+## 🚀 Consigue la Última Versión de Desarrollo
 
-#### First-timers:
+Toda la innovación vive en la rama `dev`. Aquí se prueban funciones, correcciones y experimentos antes de llegar a producción.
 
-1. Clone it:
+### ¿Es tu primera vez?
 
+1. Clona el repo oficial:
    ```bash
-   git clone https://github.com/HyDE-Project/HyDE.git
-   cd HyDE
+   git clone https://github.com/x5368x/HyprZent.git
+   cd HyprZent
    ```
-
-2. Switch to dev:
+2. Cámbiate a la rama de desarrollo:
    ```bash
    git checkout dev
    ```
 
-#### Already have the repo?
+### ¿Ya tienes HyprZent clonado?
 
-1. Make sure main is current:
-
+1. Actualiza `master` (producción):
    ```bash
    git checkout master
    git pull
    ```
-
-2. Get the dev goodies:
+2. Trae y entra a dev:
    ```bash
    git fetch origin dev
    git checkout dev
    git pull origin dev
    ```
 
-### Running Dev Version
+---
 
-Just follow the README.md or use the install script:
+## 🛠️ Instalación y Pruebas
 
-1. Full install:
+Sigue el README para detalles, pero aquí tienes lo esencial:
 
-   ```bash
-   ./install.sh
-   ```
+- **Instalación completa:**
+  ```bash
+  ./install.sh
+  ```
+- **Solo restaurar dotfiles:**
+  ```bash
+  ./install.sh -r
+  ```
+- **Opciones del instalador:**
+  ```bash
+  ./install.sh [opciones]
+      i : instalar Hyprland sin configs
+      d : instalar Hyprland por defecto sin configs --noconfirm
+      r : restaurar archivos de configuración
+      s : habilitar servicios del sistema
+      n : omitir acciones para Nvidia
+      h : reevaluar el Shell
+      m : saltar reinstalación de temas
+      t : test run (simulación, no ejecuta cambios)
+  ```
 
-2. Just restore dotfiles:
+---
 
-   ```bash
-   ./install.sh -r
-   ```
+## 🔎 ¿Qué Probar? ¡Sé Creativo/a!
 
-3. Other cool stuff you can do:
-   ```bash
-   Usage: ./install.sh [options]
-            i : [i]nstall hyprland without configs
-            d : install hyprland [d]efaults without configs --noconfirm
-            r : [r]estore config files
-            s : enable system [s]ervices
-            n : ignore/[n]o [n]vidia actions
-            h : re-evaluate S[h]ell
-            m : no the[m]e reinstallations
-            t : [t]est run without executing (-irst to dry run all)
-   ```
+1. **Novedades:** ¿Las nuevas funciones realmente funcionan? ¿Se pueden romper?
+2. **Interfaz y UX:** ¿Todo se ve bien y es intuitivo?
+3. **Temas:** ¿Puedes cambiar entre claro/oscuro? ¿Algo falla?
+4. **Fondos de pantalla:** ¿Cambian, se agregan o eliminan sin problemas?
+5. **Características del sistema:** Notificaciones, atajos, configuraciones… ¿todo ok?
+6. **Estabilidad:** ¿Se cuelga, crashea, hay glitches raros?
+7. **Hardware variado:** Prueba en diferentes PCs, laptops o entornos virtuales.
 
-## What to Test
+---
 
-Look out for:
+## 🎯 ¿Qué Esperamos de tus Pruebas?
 
-1. **New Features**: Break 'em if you can
-2. **UI Elements**: Do they look right? Work right?
-3. **Theme Switching**: Dark/light mode working?
-4. **Wallpapers**: Can you add/remove/switch?
-5. **System Features**: Notifs, settings working?
-6. **Stability**: Any crashes or freezes?
-7. **Different Systems**: Test on whatever hardware you've got
+- **Aislamiento preciso:** Describe exactamente dónde, cuándo y cómo falla algo.
+- **Evitar regresiones:** Asegúrate de que nada que funcionaba antes se rompió.
+- **Experiencia real:** ¿Algo te incomoda? ¿Podría ser más intuitivo o rápido?
+- **Rendimiento:** ¿Notas lags, alto consumo, procesos desbocados?
 
-## Testing Goals
+---
 
-### Focus On
+## 🦸 Privilegios y Reconocimiento para Testers PRO
 
-- **Isolated Issues**: Pinpoint exactly where stuff breaks
-- **Regression**: Make sure we didn't break old fixes
-- **UX**: Tell us if something feels clunky
-- **Performance**: Spot any lag or resource hogs
+- Tus reportes y sugerencias reciben atención prioritaria.
+- Puedes opinar sin filtro: queremos sinceridad brutal y constructiva.
+- Acceso anticipado a novedades, branches experimentales o previews.
+- Ayudas a decidir el futuro de HyprZent: tu feedback define el rumbo.
 
-### For Our Trusted Testers
+---
 
-As a trusted tester, you're extra special:
+## 🐞 Cómo Reportar Problemas como un/a PRO
 
-- You get quick answers when you report stuff
-- Your ideas go to the top of the pile
-- Just say what you think - no filter needed
-- Help us shape features before everyone else sees them
+### En GitHub (recomendado)
 
-We'll get back to you fast so we can fix things quicker!
+- Abre un issue o comenta en el PR de desarrollo:
+  [Comparar dev/master (HyprZent)](https://github.com/x5368x/HyprZent/compare/master...dev)
+- Usa la [plantilla de issues](.github/ISSUE_TEMPLATE) para estructurar tu reporte.
 
-## How to Report Issues
+**Tips para un buen reporte:**
+- Explica con detalle los pasos para reproducir el problema.
+- Adjunta logs, capturas o videos si es posible.
+- Especifica tu entorno: hardware, distro, drivers, etc.
 
-Found something weird? Here's what to do:
+### En Discord
 
-### GitHub (Preferred)
+- Usa el canal **#testers** para dudas rápidas, discusiones y coordinación.
+- Los reportes formales, siempre en GitHub para que no se pierdan.
 
-Report directly on the dev-to-master PR:
+---
 
-- Go here: https://github.com/HyDE-Project/HyDE/compare/master...automated-dev-to-master-branch
+## 📅 ¿Cuándo se libera una nueva versión?
 
-### Discord
+Consulta la [Política de Releases](./RELEASE_POLICY.md) para saber cuándo salen nuevas versiones y cómo puedes participar en los ciclos de pruebas finales.
 
-In the HyDE Discord:
+---
 
-- Drop a message in #testers channel
-- Real issues should go on GitHub, but we can chat about them in Discord
+## 🌱 Sé parte de la Comunidad
 
-### Making Good Bug Reports
+- Nadie cobra: aquí todos aportamos por pasión y aprendizaje.
+- Cada sugerencia, reporte y test cuenta; ¡no subestimes tu impacto!
+- Si tienes una idea loca, ¡compártela! A veces las mejores mejoras nacen del feedback menos esperado.
 
-Just follow the [issue templates](.github/ISSUE_TEMPLATE)
+---
 
-## Release Schedule
+## 💧 Mantente HyprZentrado e hidratado
 
-Check the [release policy](./RELEASE_POLICY.md)
+Gracias por probar, romper, sugerir, opinar y hacer de HyprZent el dotfile más cool de la comunidad Hyprland.  
+¿Dudas? ¿Ideas? ¿Quieres sumarte al equipo?  
+**¡Únete al Discord y haz historia con nosotros!**
 
-## Community Stuff
-
-Nobody gets paid for this - we're all just nerds who like making cool stuff together. Your help testing is super valuable! Everyone's contribution matters, whether it's testing, bug reports, code, or just ideas.
-
-Let's build something awesome together! Thanks for being part of our weird little community!
-
-### Do not forget stay HyDErated!
+---
