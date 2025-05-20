@@ -24,10 +24,10 @@
   </a>
 </div>
 
-<!-- PROJECT LOGO/BANNER: use static (2).png in master -->
+<!-- PROJECT LOGO/BANNER: use hyprzent.gif in master -->
 <br />
 <div align="center">
-  <img src="static%20(2).png" alt="HyprZent Banner" width="430" style="border-radius:16px;box-shadow:0 0 24px #3752E2,0 0 2px #fff;"/>
+  <img src="https://github.com/x5368x/HyprZent/raw/master/README.IMAGES/hyprzent.gif" alt="HyprZent Banner" width="430" style="border-radius:16px;box-shadow:0 0 24px #3752E2,0 0 2px #fff;"/>
   <h1 align="center" style="color:#3752E2;letter-spacing:0.12em;font-weight:800;">HyprZent</h1>
   <p align="center">
     <b style="color:#C6D5F8;">El dotfile más visual, zen y supremo para Hyprland</b><br>
