@@ -8,7 +8,7 @@
 [![Issues][issues-shield]][issues-url]
 [![LICENSE][license-shield]][license-url]
 
-[license-shield]: https://img.shields.io/badge/LICENSE-MIT-0984e3.svg?style=flat-square&labelColor=23272f&color=0984e3&logoColor=ffffff&logo=
+[license-shield]: https://img.shields.io/badge/LICENSE-MIT-3772ff.svg?style=flat-square&labelColor=464749
 [license-url]: https://github.com/x5368x/HyprZent/blob/master/LICENSE
 
 <!-- SOCIALS (tuned for blue harmony) -->
