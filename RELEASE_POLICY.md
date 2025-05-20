@@ -1,64 +1,87 @@
-## Release & Branching Policy (Flexible Freeze & Release Window)
+# Política de Releases y Manejo de Ramas 🚦
 
-### Branches
-
-- **`dev` branch**  
-  Active development branch where all new features and fixes are merged and tested continuously.
-
-- **`master` branch**  
-  Stable production branch updated only with thoroughly tested code from `dev`.
-
-- **`release` branch**
-  Freezed production `master` branch for release. This branch is not updated with new features or fixes. This just serves as a snapshot of the production code.
-
-### Weekly Release Cycle (Flexible Timing)
-
-- **Dev Branch Freeze Window:**  
-  The `dev` branch freeze typically occurs **during the latter part of the week (Wednesday/Thursday)**, allowing no new feature merges after that point. Only critical bug fixes and final testing are allowed during this freeze period.
-
-- **Merge & Release Window:**  
-  The merge from `dev` to `master` and deployment to production happens **on Friday**.
-
-- **Freeze & Release Window:**  
-  The freeze and release window is we can freeze and tag the `master` branch. Cycles should be first and third week per month.
-
-### Development and Testing
-
-- **Monday to Wednesday (before freeze):**  
-  Developers merge features and fixes into `dev`. Testers validate continuously.
-
-- **Thursday (freeze window):**  
-  Development freezes on `dev` at some point during the day. Testers focus on final validation and regression testing.
-
-- **Friday (release window):**  
-  Once `dev` is stable and approved, it is merged into `master` and deployed. This happens sometime during Friday, with flexibility to ensure quality.
-
-- **Friday to Sunday:**  
-  Production monitoring and hotfix as needed.
-
-### Pull Requests
-
-- All pull requests should be made against `dev` branch.
-- Pull requests should be reviewed and approved by at least one other developer before merging.
-- Pull requests should be merged and deployed within the release window for `master` branch.
-- Pull requests should not be merged directly into `master` branch.
-- Pull request can be created anytime, but should be reviewed and and should be merged to `dev` branch before releasing on `master` branch.
-
-### Summary Timeline (Flexible)
-
-| Day                              | Activity                                               |
-| -------------------------------- | ------------------------------------------------------ |
-| Monday–Wednesday (before freeze) | Active development and testing on `dev` branch         |
-| Thursday (freeze window)         | Freeze `dev` branch at flexible time; finalize testing |
-| Friday (release window)          | Merge `dev` into `master` and deploy at flexible time  |
-| Friday–Sunday                    | Monitor production and prepare hotfixes if needed      |
+Nuestra estrategia de ramas y releases está diseñada para mantener la máxima calidad y agilidad en el desarrollo, permitiendo iteraciones rápidas sin comprometer la estabilidad de producción.
 
 ---
 
-### Notes
+## 🌿 Estructura de Ramas
 
-- The freeze and release times are **flexible within late Wednesday and Friday** to accommodate testing needs and ensure release quality.
-- Aim to freeze `dev` as early as possible on Wednesday and release early on Friday, but timing may adjust based on readiness.
-- Clear communication will be provided each week about the expected freeze and release times. Expect that it may be in the commit messages or in a dedicated discord channel.
-- This is yet experimental and may be adjusted or modified based on feedback and testing results.
-- We don't have exact time frames as it depends on the collaborators availability.
+- **`dev` (desarrollo activo):**  
+  Aquí se integran y prueban todas las nuevas funciones, mejoras y correcciones. Es la rama para el trabajo diario y colaborativo.
+
+- **`master` (producción estable):**  
+  Solo recibe código desde `dev` tras una validación exhaustiva. Representa siempre el estado publicado en producción.
+
+- **`release` (snapshot de producción):**  
+  Replica el estado de `master` en el momento de un release importante. No recibe cambios posteriores, solo sirve como referencia para soporte o auditoría.
+
+---
+
+## 📅 Ciclo de Releases Semanal (Flexible)
+
+- **Congelación en `dev`:**  
+  El avance en la rama `dev` se congela típicamente a mitad o final de semana (miércoles o jueves). Desde ese momento, solo se permiten correcciones críticas y pruebas finales.
+
+- **Ventana de Release:**  
+  El merge de `dev` en `master` y el despliegue a producción ocurren los viernes, con margen de maniobra para asegurar la calidad.
+
+- **Etiquetado y Snapshots:**  
+  En la primera y tercera semana del mes, se etiqueta el estado de `master` como release estable y se actualiza la rama `release` como histórico.
+
+---
+
+## 🕒 Flujo de Trabajo
+
+| Día                      | Actividad                                             |
+|--------------------------|------------------------------------------------------|
+| Lunes–Miércoles          | Desarrollo activo y testing en `dev`                 |
+| Jueves (congelación)     | Últimos ajustes y validación. Solo fixes urgentes.   |
+| Viernes (release)        | Merge de `dev` a `master` y despliegue flexible      |
+| Viernes–Domingo          | Monitoreo en producción, hotfixes si hace falta      |
+
+---
+
+## 🛠️ Desarrollo, Testing y Deploy
+
+- **Inicio de semana:**  
+  Se integran nuevas funcionalidades, mejoras y correcciones en `dev`. QA realiza validaciones continuas.
+
+- **Jueves:**  
+  Se congela el desarrollo en `dev`. El equipo se concentra en pruebas de regresión y validación final.
+
+- **Viernes:**  
+  Si todo está validado, `dev` se fusiona en `master` y se despliega a producción. El horario es adaptable según el avance.
+
+- **Fin de semana:**  
+  Se monitorea la producción. Si surge un problema crítico, se aplica hotfix directamente a `master` y, tras validación, se lleva a `dev`.
+
+---
+
+## 🔀 Pull Requests
+
+- Todos los cambios deben proponerse a través de PRs contra `dev`.
+- Cada PR requiere revisión y aprobación mínima de un desarrollador diferente al autor.
+- Los PRs deben aceptarse y mergearse antes de la congelación semanal para entrar en la siguiente release.
+- No se permiten merges directos a `master` ni a `release`.
+- Los PRs pueden crearse en cualquier momento, pero deben ser revisados y aceptados en `dev` antes de la ventana de release.
+
+---
+
+## 📝 Consideraciones y Buenas Prácticas
+
+- **Flexibilidad:**  
+  Los horarios exactos de freeze y release pueden variar según la disponibilidad del equipo y la calidad del build. La prioridad es la estabilidad.
+
+- **Comunicación clara:**  
+  Cada semana se informará el calendario estimado y cualquier ajuste a través de canales internos de comunicación (ej: Discord, commits, etc.).
+
+- **Evolución continua:**  
+  Esta política es viva y puede ajustarse según la experiencia y las necesidades del equipo. Se agradece el feedback.
+
+- **Sin fechas rígidas:**  
+  No hay horas exactas; se prioriza la preparación del release sobre el calendario, ajustando tiempos según el contexto.
+
+---
+
+¿Tienes sugerencias o necesitas aclaraciones?  
+¡Anímate a proponer mejoras mediante un PR o issue!
