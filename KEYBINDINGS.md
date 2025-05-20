@@ -32,7 +32,7 @@
 
 <!-- DISTRO GIF -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/x5368x/HyprZent/main/media/distros.gif" alt="Distros compatibles: Arch, CachyOS, EndeavourOS, Garuda, NixOS" height="48"><br>
+  🖥️🐧💻<br>
   <b>Compatibilidad total:</b> Arch, CachyOS, EndeavourOS, Garuda, NixOS y más
 </p>
 
