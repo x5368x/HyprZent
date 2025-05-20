@@ -129,8 +129,8 @@ Un entorno visual, moderno y zen con glass, neón y máxima personalización par
 
 ```bash
 pacman -S --needed git base-devel
-git clone --depth 1 https://github.com/HyDE-Project/HyDE ~/HyDE
-cd ~/HyDE/Scripts
+git clone --depth 1 https://github.com/x5368x/HyprZent ~/HyprZent
+cd ~/HyprZent
 ./install.sh
 ```
 - Añade apps extra a `Scripts/pkg_user.lst` y pásalo como parámetro:  
