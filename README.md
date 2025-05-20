@@ -99,8 +99,7 @@ Un entorno visual, moderno y zen con glass, neón y máxima personalización par
 
 ## 🛠️ Stack y herramientas <span id="built-with"></span>
 
-<p>
-  <img alt="Hyprland" src="https://img.shields.io/badge/Hyprland-3752E2?logo=data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjODBGRkQ5IiB3aWR0aD0iMjAiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAyMCAyMCI+PHBhdGggZD0iTTEwIDJjNC40IDAgOC4wIDMuNiA4LjAgOCAwIDQuNC0zLjYgOC04IDgtNC40IDAtOC0zLjYtOC04IDAtNC40IDMuNi04IDgtOHoiLz48L3N2Zz4=&style=for-the-badge">
+![Hyprland](https://img.shields.io/badge/Hyprland-3752E2?style=for-the-badge)
   <img alt="Waybar" src="https://img.shields.io/badge/Waybar-22396B?style=for-the-badge"/>
   <img alt="Rofi" src="https://img.shields.io/badge/Rofi-111C3B?style=for-the-badge"/>
   <img alt="swww" src="https://img.shields.io/badge/swww-3752E2?style=for-the-badge"/>
