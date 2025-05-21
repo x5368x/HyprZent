@@ -141,10 +141,10 @@ Un entorno visual, moderno y zen con glass, neón y máxima personalización par
 ### Instalación
 
 ```bash
-pacman -S --needed git base-devel
-git clone --depth 1 https://github.com/x5368x/HyprZent ~/HyprZent
-cd ~/HyprZent
-./install.sh
+git clone https://github.com/x5368x/HyprZent.git
+cd HyprZent
+chmod +x Scripts/install.sh
+./Scripts/install.sh
 ```
 - Añade apps extra a `Scripts/pkg_user.lst` y pásalo como parámetro:  
   `./install.sh pkg_user.lst`
